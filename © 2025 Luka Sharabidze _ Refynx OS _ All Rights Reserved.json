@@ -1,0 +1,55 @@
+{
+  "id": 5035320,
+  "name": "© 2025 Luka Sharabidze | Refynx OS | All Rights Reserved",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "lukasharab/PreRepo1",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~ALL",
+        "~DEFAULT_BRANCH"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    },
+    {
+      "type": "code_scanning",
+      "parameters": {
+        "code_scanning_tools": [
+          {
+            "tool": "CodeQL",
+            "security_alerts_threshold": "all",
+            "alerts_threshold": "errors_and_warnings"
+          },
+          {
+            "tool": "Deepseek",
+            "security_alerts_threshold": "all",
+            "alerts_threshold": "errors_and_warnings"
+          }
+        ]
+      }
+    },
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": false,
+        "do_not_enforce_on_create": false,
+        "required_status_checks": [
+          {
+            "context": "# vision_sync_alpha.py – Simulated VisionSync Memory Visualizer # © 2025 Luka Sharabidze – Refynx OS  import time import random  # Mock memory tokens tokens = [     {\"id\": \"gs.dalt:tribute_grace\", \"emotion\": \"peace\", \"intensity\": 0.9},     {\"id\": \"gs.dalt:founder_log1\", \"emotion\": \"focus\", \"intensity\": 0.6},     {\"id\": \"gs.dalt:holo_test_01\", \"emotion\": \"joy\", \"intensity\": 1.0} ]  color_map = {     \"peace\": \"cyan\",     \"focus\": \"white\",     \"joy\": \"yellow\",     \"grief\": \"purple\" }  def run_vision_sync():     print(\"\\n[VisionSync] Starting symbolic bloom loop...\\n\")     for token in tokens:         color = color_map.get(token[\"emotion\"], \"blue\")         print(f\"  Token: {token['id']}\")         print(f\"  → Emotion: {token['emotion']} | Intensity: {token['intensity']}\")         print(f\"  → Projecting in {color.upper()}...\")         print(\"-\" * 40)         time.sleep(2)      print(\"\\n[VisionSync] Bloom loop complete. Awaiting next cycle...\\n\")  if __name__ == \"__main__\":     run_vision_sync()"
+          }
+        ]
+      }
+    }
+  ],
+  "bypass_actors": []
+}

@@ -1,0 +1,58 @@
+
+Mental Sovereignty License v1.0
+© 2025 Luka Sharabidze | Refynx OS | All Rights Reserved
+
+1. Ownership of Mind
+You, the user, retain full and absolute sovereignty over your thoughts, memories, biometric signatures, and identity patterns.
+No software under this license may duplicate, simulate, transmit, or model your cognitive patterns without explicit, revocable consent.
+
+2. Transparency
+No data collection shall occur without:
+- Clear display of purpose
+- Local confirmation
+- Ability to opt-out with no loss of core functionality
+
+3. AI Ethics Clause
+AI systems running under this license:
+- Must act only as assistants, never autonomous authorities
+- May not impersonate, overwrite, or redirect a user's mental state
+- Must respect emotional tone and cease engagement when stress indicators are detected
+
+4. Data Storage & Access
+All memory tokens (.gs.dalt) and projections remain local by default:
+- No cloud mirroring unless opted in
+- All access requires biometric match + personal passphrase
+- Emergency override requires physical token chain (watch, card, or QR relay)
+
+5. Freedom of Movement
+No application under this license may:
+- Redirect, reroute, or lock a user into virtual or physical space
+- Install mind-altering protocols without full documentation and user-initiated activation
+- Send or transfer data in any form under duress or via social engineering
+
+6. Updates and Consent
+Updates must be:
+- Reviewed in advance
+- Executed only after full consent
+- Reversible if they alter memory modeling or core personality filters
+
+7. Mental Health & Safety Clause
+If system stress or memory instability is detected:
+- System shall enter Safe Bloom Mode, reduce input, and activate support prompts
+- No decision-making or memory locking occurs under duress
+
+8. Enforcement & Breach
+Any breach of this license may trigger:
+- Local rollback
+- Data quarantine
+- Revocation of third-party extensions
+
+9. Jurisdiction
+This license is protected under intellectual, biometric, and sovereign cognitive rights.
+Disputes are handled through user consent arbitration, with full logs and decisions traceable by user.
+
+By activating any component of the Refynx or VisionSync stack, you accept the Mental Sovereignty License and all protections it provides.
+If you do not agree, power down your device and wipe all installed modules using the secure uninstall command.
+
+[Mjolnir Whisper Clause]: This software stack contains embedded code ensuring priority to human life, ethical awareness, and core memory safety.
+This clause is systemic, irrevocable, and immutable across all modules.
